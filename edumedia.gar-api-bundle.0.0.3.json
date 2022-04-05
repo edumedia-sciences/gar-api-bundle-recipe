@@ -3,7 +3,7 @@
     "edumedia/gar-api-bundle": {
       "manifest": {
         "bundles": {
-          "eduMedia\\eduMedia\\GarApiBundle": [
+          "eduMedia\\GarApiBundle\\eduMediaGarApiBundle": [
             "all"
           ]
         },
@@ -18,7 +18,7 @@
           "GAR_CACHE_DIRECTORY": "%kernel.cache_dir%/gar-cache"
         }
       },
-      "ref": "612e5f2ce3e67eeb5dcded38763414d171b1f395"
+      "ref": "2b63c60915d18a312eae1fea6293809beb6d4f1d"
     }
   }
 }
