@@ -5,5 +5,10 @@
     ]
   },
   "branch": "main",
-  "is_contrib": true
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/edumedia-sciences/gar-api-bundle-recipe",
+    "origin_template": "{package}:{version}@github.com/edumedia-sciences/gar-api-bundle-recipe:main",
+    "recipe_template": "https://api.github.com/repos/edumedia-sciences/gar-api-bundle-recipe/contents/{package_dotted}.{version}.json"
+  }
 }
