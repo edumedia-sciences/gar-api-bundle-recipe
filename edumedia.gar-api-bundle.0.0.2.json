@@ -1,0 +1,24 @@
+{
+  "manifests": {
+    "edumedia/gar-api-bundle": {
+      "manifest": {
+        "bundles": {
+          "eduMedia\\eduMedia\\GarApiBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "env": {
+          "GAR_DISTRIBUTOR_ID": "Please change me",
+          "GAR_SSL_CERT": "Please change me",
+          "GAR_SSL_KEY": "Please change me",
+          "GAR_REMOTE_ENV": "preprod",
+          "GAR_CACHE_DIRECTORY": "%kernel.cache_dir%/gar-cache"
+        }
+      },
+      "ref": "612e5f2ce3e67eeb5dcded38763414d171b1f395"
+    }
+  }
+}

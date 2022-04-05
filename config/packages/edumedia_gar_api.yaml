@@ -1,0 +1,6 @@
+edumedia_gar_api:
+  distributor_id: '%env(GAR_DISTRIBUTOR_ID)%'
+  ssl_cert: '%env(GAR_SSL_CERT)%'
+  ssl_key: '%env(GAR_SSL_KEY)%'
+  remote_env: '%env(GAR_REMOTE_ENV)%'
+  cache_directory: '%env(GAR_CACHE_DIRECTORY)%'
