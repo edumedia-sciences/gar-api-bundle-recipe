@@ -13,9 +13,7 @@
         "env": {
           "GAR_DISTRIBUTOR_ID": "Please change me",
           "GAR_SSL_CERT": "Please change me",
-          "GAR_SSL_KEY": "Please change me",
-          "GAR_REMOTE_ENV": "preprod",
-          "GAR_CACHE_DIRECTORY": "%kernel.cache_dir%/gar-cache"
+          "GAR_SSL_KEY": "Please change me"
         }
       },
       "ref": "2b63c60915d18a312eae1fea6293809beb6d4f1d"
