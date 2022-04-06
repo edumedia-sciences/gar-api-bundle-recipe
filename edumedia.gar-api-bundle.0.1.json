@@ -16,7 +16,20 @@
           "GAR_SSL_KEY": "/path/to/cert.key"
         }
       },
-      "ref": "ad610a54abdf2f5563841a4ce4b3c3cb29a7d0ff"
+      "files": {
+        "config/edumedia_gar_api.yaml": {
+          "contents": [
+            "edumedia_gar_api:",
+            "  distributor_id: '%env(GAR_DISTRIBUTOR_ID)%'",
+            "  ssl_cert: '%env(GAR_SSL_CERT)%'",
+            "  ssl_key: '%env(GAR_SSL_KEY)%'",
+            "  remote_env: 'preprod'",
+            "  cache_directory: '%kernel.cache_dir%/gar-cache'"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "eb15f463f4c8b74563e745ded9773afbababe0f3"
     }
   }
 }
