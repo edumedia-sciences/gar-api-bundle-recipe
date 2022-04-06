@@ -17,7 +17,7 @@
         }
       },
       "files": {
-        "config/edumedia_gar_api.yaml": {
+        "config/packages/edumedia_gar_api.yaml": {
           "contents": [
             "edumedia_gar_api:",
             "  distributor_id: '%env(GAR_DISTRIBUTOR_ID)%'",
@@ -29,7 +29,7 @@
           "executable": false
         }
       },
-      "ref": "eb15f463f4c8b74563e745ded9773afbababe0f3"
+      "ref": "d4c96130b1607d928711018efba0342ba9eded39"
     }
   }
 }
